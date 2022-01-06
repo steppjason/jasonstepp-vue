@@ -17,5 +17,5 @@ export default {
           return this.$store.getters.getProject(parseInt(this.$route.params.id))
       }
   }
-};
+}
 </script>

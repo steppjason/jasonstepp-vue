@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ProjectSnippet from "@/components/ProjectSnippet.vue";
+import ProjectSnippet from "@/components/ProjectSnippet.vue"
 
 export default {
   name: "ProjectList",
@@ -15,5 +15,5 @@ export default {
   props: {
     projects: Array,
   },
-};
+}
 </script>

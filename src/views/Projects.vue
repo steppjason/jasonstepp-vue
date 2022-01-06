@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ProjectList from "@/components/ProjectList.vue";
+import ProjectList from "@/components/ProjectList.vue"
 
 export default {
   name: "Projects",
@@ -15,10 +15,10 @@ export default {
   data() {
     return {
       projects: [],
-    };
+    }
   },
   created() {
     this.projects = this.$store.getters.getProjects
   },
-};
+}
 </script>

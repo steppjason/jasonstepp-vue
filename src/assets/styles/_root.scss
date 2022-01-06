@@ -1,0 +1,106 @@
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 3em;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    flex: 1;
+    min-width: 350px;
+    text-align: center;
+}
+
+main{
+    flex: 3;
+    padding: 2em;
+}
+
+footer{
+    flex: 1 100%;
+    text-align: center;
+}
+
+nav>ul, footer>ul, .socials>ul{
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav>ul>li, footer>ul>li, .socials>ul>li{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+
+/*  Social Icons  */
+
+.icon{
+    width:40px;
+}
+
+.icon path, .icon circle, .icon rect, .icon polygon, .icon polyline{
+    fill:var(--primary-color);
+    transition: fill 1s;
+}
+
+.icon polyline, .icon polygon{
+    stroke:rgba(var(--background-color),1);
+}
+
+.icon:hover path, .icon:hover circle, .icon:hover rect, .icon:hover polygon, .icon:hover polyline{
+    fill:var(--tertiary-color);
+    transition: fill 1s;
+}
+
+.icon:hover polyline, .icon:hover polygon{
+    stroke:rgba(var(--background-color),1);
+}
+
+.icon-no-fill{
+    fill:none;
+}
+
+
+/*  Remove transitions  */
+
+.preload *{
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+
+/*  Media Queries  */
+
+@media screen and (max-width:768px){
+    header{
+        position:relative;
+        width:auto;
+        max-width:none;
+    }
+
+    main, footer{
+        margin-left:0;
+    }
+}
+
+
+/*  Animations  */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
