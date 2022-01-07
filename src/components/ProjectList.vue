@@ -1,5 +1,5 @@
 <template>
-  <div :key="project.id" v-for="project in projects">
+  <div class="project-snippet" :key="project.id" v-for="project in projects">
     <ProjectSnippet :project="project" />
   </div>
 </template>

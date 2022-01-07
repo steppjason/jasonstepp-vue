@@ -8,6 +8,24 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--light-green);
+    color: var(--yellow);
+    //color: var(--dark-orange);
+    background-color: var(--dark-green);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--orange);
+    color: var(--dark-orange);
+}
+
+footer a, nav a{
+    color: var(--yellow);
+    color: var(--orange);
+}
+
+footer, nav{
+    color: var(--light-green);
 }
 
 header{
@@ -26,6 +44,10 @@ footer{
     text-align: center;
 }
 
+footer>p{
+    font-size:12px;
+}
+
 nav>ul, footer>ul, .socials>ul{
     margin: 1em 0;
     padding: 0;
@@ -38,14 +60,32 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 }
 
 
+.project-snippet{
+    margin: 0 0 4em 0;
+}
+
+.project-snippet:last-child{
+    margin: 0 0 0 0;
+}
+
+.project-snippet img{
+    opacity: 25%;
+}
+
+
+.socials>ul>li{
+    padding: 0.3em;
+}
+
+
 /*  Social Icons  */
 
 .icon{
-    width:40px;
+    width:30px;
 }
 
 .icon path, .icon circle, .icon rect, .icon polygon, .icon polyline{
-    fill:var(--primary-color);
+    fill:var(--light-green);
     transition: fill 1s;
 }
 
