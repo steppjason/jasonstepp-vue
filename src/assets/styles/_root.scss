@@ -3,7 +3,13 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
-    height:100%
+    height:100%;
+
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 *{
@@ -23,6 +29,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
+    margin:0.5rem 0;
 }
 
 a{
@@ -97,8 +104,18 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 .header-subtitle{
     text-transform: uppercase;
     font-weight:600;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--tertiary-color);
+    margin-bottom:2rem;
+}
+
+.email a{
+    font-family: 'Montserrat', sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 500;
+    font-size: 0.94rem;
+    color: var(--secondary-color);
+    vertical-align: middle;
 }
 
 
@@ -143,7 +160,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 
 .icon path, .icon circle, .icon rect, .icon polygon, .icon polyline{
     fill:var(--primary-color);
-    transition: fill 1s;
+    /*transition: fill 1s;*/
 }
 
 .icon polyline, .icon polygon{
@@ -163,15 +180,15 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
     fill:none;
 }
 
+.email-icon{
+    width:24px;
+    vertical-align: middle;
+}
 
 /*  Remove transitions  */
 
 .preload *{
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
+
 }
 
 
