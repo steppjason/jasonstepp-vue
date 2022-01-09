@@ -16,7 +16,10 @@ export default {
   },
   methods:{
       closeMenu(){
-          this.$parent.$refs.menu.classList.remove("open")
+          if(this.$parent.$refs.menu != null){
+              this.$parent.$refs.menu.classList.remove("open")
+          }
+            
       }
   }
 }
