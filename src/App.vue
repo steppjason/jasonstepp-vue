@@ -1,8 +1,14 @@
 <template>
   <Header />
-  <main>
-    <router-view />
-  </main>
+  <div class="wrapper">
+    <main>
+      <router-view v-slot="{ Component }">
+        <transition name="route" mode="out-in">
+          <component :is="Component"></component>
+        </transition>
+      </router-view>
+    </main>
+  </div>
   <Footer />
 </template>
 

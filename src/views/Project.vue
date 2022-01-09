@@ -1,5 +1,5 @@
 <template>
-  <div v-if="project">
+  <div class="content" v-if="project">
       <h1> {{ project.title }} </h1>
       <div><img :src="require('@/assets/img/projects/' + project.fullimage)" /></div>
       <div v-html="project.fulltext"></div>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <h3>About</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo erat non feugiat consequat. 
     Suspendisse ac fermentum metus. Aliquam erat volutpat. Proin bibendum aliquam elementum.</p>
