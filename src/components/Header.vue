@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1 class="header-name"><span>Jason</span> Stepp</h1>
+    <h1 class="header-name"><router-link to="/"><span>Jason</span> Stepp</router-link></h1>
     <h2 class="header-subtitle">Full Stack Developer</h2>
     <Nav />
     <Email />
