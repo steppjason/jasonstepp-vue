@@ -291,7 +291,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
         display: block;
     }
 
-    .mobile-nav{
+    .mobile-nav.open{
         right: 0;
     }
     
@@ -320,7 +320,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 
     .wrapper{
         flex:1 100%;
-        min-height: 50%;
+        min-height: 60%;
         margin-bottom:0;
     }
 
