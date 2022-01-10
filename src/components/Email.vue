@@ -4,3 +4,9 @@
       <a href="mailto:hi@jasonstepp.me">hi@jasonstepp.me</a>
     </div>
 </template>
+
+<script>
+export default {
+  name: "Email"
+}
+</script>

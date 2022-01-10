@@ -19,6 +19,6 @@ export default {
   },
   created() {
     this.projects = this.$store.getters.getProjects
-  },
+  }
 }
 </script>

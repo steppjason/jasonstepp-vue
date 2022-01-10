@@ -8,3 +8,9 @@
       </ul>
     </div>
 </template>
+
+<script>
+export default {
+  name: "Socials"
+}
+</script>

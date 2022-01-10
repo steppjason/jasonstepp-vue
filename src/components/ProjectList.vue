@@ -14,6 +14,6 @@ export default {
   },
   props: {
     projects: Array,
-  },
+  }
 }
 </script>

@@ -4,7 +4,6 @@
         <li><router-link v-on:click="closeMenu" to="/">Home</router-link></li>
         <li><router-link v-on:click="closeMenu" to="/projects">Projects</router-link></li>
         <li><router-link v-on:click="closeMenu" to="/about">About</router-link></li>
-        <li><router-link v-on:click="closeMenu" to="/contact">Contact</router-link></li>
       </ul>
     </nav>
 </template>

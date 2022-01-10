@@ -11,6 +11,6 @@ export default {
   name: "ProjectSnippet",
   props: {
     project: Object,
-  },
+  }
 }
 </script>
