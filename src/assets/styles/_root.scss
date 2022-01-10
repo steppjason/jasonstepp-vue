@@ -233,6 +233,51 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
     margin-bottom:2rem;
 }
 
+.home>h3{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.home>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.home>p:first-of-type{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.home>p:last-of-type{
+    margin: 0 0 1rem 0;
+}
+
+.home>p>.emphasize{
+    color: var(--secondary-color);
+}
+
+.home>p>.bold{
+    font-weight: 800;
+}
+
+.home>ul{
+    list-style: none;
+    margin: 0 -0.25rem;
+    padding: 0;
+}
+
+.home>ul>li{
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    color: var(--bg);
+    background-color: var(--tertiary-color);
+    border-radius: 10%;
+    opacity: 60%;
+}
+
 .email{
     margin: 4rem 0 0.5rem 0;
 }
@@ -440,6 +485,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 
     .header-subtitle{
         margin-bottom: 1rem;
+        margin-top: 0;
     }
 
     .wrapper{
