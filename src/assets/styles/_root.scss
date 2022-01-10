@@ -81,10 +81,6 @@ main{
     padding: 2rem;
 }
 
-.content>h3{
-    margin-top: 2rem;
-}
-
 footer{
     flex: 1 100%;
     text-align: center;
@@ -219,6 +215,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 .header-name{
     text-transform: uppercase;
     font-weight:700;
+    margin-top: 0;
 }
 
 .header-name span{
@@ -293,7 +290,7 @@ nav>ul>li, footer>ul>li, .socials>ul>li{
 
 
 .project-snippet{
-    margin: 0 0 2.5rem 0;
+    margin: 0.5rem 0 2.5rem 0;
 }
 
 .project-snippet>a{
