@@ -29,12 +29,10 @@ export default {
       closeMenu(){
           this.$refs.menu.classList.remove("open")
           this.$refs.fade.classList.remove("mobile-nav-fade_open")
-          this.$el.parentNode.classList.remove("app-overflow")
       },
       openMenu(){
           this.$refs.menu.classList.add("open")
           this.$refs.fade.classList.add("mobile-nav-fade_open")
-          this.$el.parentNode.classList.add("app-overflow")
       }
   }
 }

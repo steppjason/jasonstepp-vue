@@ -8,9 +8,14 @@
         <div><img class="project-header-img" :src="require('@/assets/img/projects/' + project.url + '/' + project.fullimage)"/></div>
       </transition>
       
-      <div class="project-link"><span>Link:</span> <a target="_blank" :href="project.link">{{ project.link }}</a></div>
+      <div v-if="project.link" class="project-link"><span>Link:</span> <a target="_blank" :href="project.link">{{ project.link }}</a></div>
+      <div v-if="project.social" class="project-link"><span>Instagram:</span> <a target="_blank" :href="project.social">{{ project.social }}</a></div>
 
       <div class="project-full-text" v-html="project.fulltext"></div>
+
+      <ul class="project-tools" v-if="project.tools">
+        <li :key="tool.id" v-for="tool in project.tools">{{ tool }}</li>
+      </ul>
       
       <h3 v-if="project.video || project.images">Media</h3>
       <transition name="image" appear>

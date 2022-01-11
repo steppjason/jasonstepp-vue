@@ -2,26 +2,59 @@
     {
         "id": 4,
         "title": "CVBERPUNK",
-        "summary": "Summary for project 3",
+        "summary": "<p>Niche website / social media centered around the science fiction genre <strong><em>CYBERPUNK</em></strong>.</p>",
         "thumbnail": "default.jpg",
         "fullimage": "header.jpg",
         "url": "cvberpunk",
-        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
+        "fulltext": "<p>Started as an Instagram account sharing content centered around the science fiction genre: <strong><em>CYBERPUNK</em></strong>. <!--I have been a fan of cyberpunk for a long time, so I decided to start posting content I found to social media for fun and as a learning experience. Marketing on social media is a huge industry that contains valuable skills.--> My Instagram quickly grew to thousands of users, and then to over 10,000 over a couple of years.</p><p>Taking my existing userbase I decided to turn the social media account I grew into an E-commerce website. <!--Using the opportunity to learn something new.--> I have done freelance work in the past building out WordPress / WooCommerce websites for small businesses, so it was a platform I was familiar with. But I had never built a custom theme completely from scratch.</p><p>Without time or cost restraints <!--developing a WordPress theme from the ground up I wanted the website to meet specific requirements. One of the downsides of using WordPress is site speed from themes and required plugins.--> I wanted to build a WordPress site that was lightweight and fast. Using previous experience with Unix servers I set up a droplet on DigitalOcean and configured NGINX with caching. I built out a lightweight WordPress theme using the least amount of plugins I could and staying away from large CSS, JavaScript, and image files as much as I could.</p><p>It was the fastest website I had ever built getting a mobile score of 71 and desktop score of 95 from Google PageSpeed Insights.</p><p>I now maintain the site and social media account as hobbies. And use them as creative outlets to design graphic t-shirts.</p>",
         "images":[
             "image1.jpg",
             "image2.jpg",
+            "image3.jpg",
+            "image4.jpg"
+        ],
+        "link":"https://www.cvberpunk.com",
+        "social":"https://www.instagram.com/cvberpunk",
+        "tools":[
+            "PHP",
+            "MySQL",
+            "WordPress/Woocommerce",
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "Unix",
+            "NGINX"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "YoyoPoyo",
+        "summary": "<p>Puzzle game developed in 24 hours for the <strong><em>2021 GameMaker Game Jam</em></strong> game development event.</p>",
+        "thumbnail": "default.jpg",
+        "fullimage": "header.jpg",
+        "url": "yoyopoyo",
+        "fulltext": "<p>YoyoPoyo is a puzzle game made in Unity for the 2021 GameMaker Game Jam development event. This particular game jam lasted 48 hours, however I joined late and only had about 24 hours to develop this game.</p><p><a target=\"_blank\" href=\"https://itch.io/jam/gmtk-2021\">Learn more about the event here</a></p><p>The theme for the event was <strong>\"Joined Together\"</strong>. My game centers around two characters that are both controlled by the same input so that they mimic each other. Using the environment the player can re-position the characters relative to each other to solve puzzles.</p><p>All code and art assets were created within the 24 hours that I worked on the project.</p><p>You can see <a target=\"_blank\" href=\"https://itch.io/jam/gmtk-2021/rate/1080261\">how well my game was rated</a> in different categories among 5,742 other entries.</p>",
+        "images":[
+            "image1.gif",
+            "image2.jpg",
             "image3.jpg"
         ],
-        "link":"https://www.cvberpunk.com"
+        "video":"IvLOORdOnH4",
+        "link":"https://tengusheath.itch.io/yoyopoyo",
+        "tools":[
+            "C#",
+            "Unity",
+            "Aseprite"
+        ]
     },
     {
         "id": 1,
         "title": "10,001: A space exploration game",
-        "summary": "Summary for project 1",
+        "summary": "<p>Space exploration game developed in 48 hours for the <strong><em>Ludum Dare 48</em></strong> game development event.</p>",
         "thumbnail": "default.jpg",
         "fullimage": "header.jpg",
         "url": "10001",
-        "fulltext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat.</p><p>Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus.</p><p>Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.</p>",
+        "fulltext": "<p><strong>10,001: A space exploration game</strong> is about the vast emptiness of space, inspired by classic science fiction. It was developed in 48 hours for the Ludum Dare 48 game development event.</p><p><a target=\"_blank\" href=\"https://ldjam.com/\">Learn more about Ludum Dare here</a></p><p>The theme for this event was <strong>\"Deeper and Deeper\"</strong>. My game focuses on exploring deep space and the isolation that comes with it. The player pilots a spacecraftthat can fire a weapon to fight an invading alien species while they try to explore surrounding areas.</p><p>Each Ludum Dare has two types of submissions with different deadlines: the \"Compo\" at 48 hours and \"Jam\" at 72 hours. All code and art assets were made in 48 hours for the \"Compo\" submission.</p><p>You can <a target=\"_blank\" href=\"https://ldjam.com/events/ludum-dare/48/10001\">see how well my game was rated</a> in different categories among 3,866 submissions.</p>",
         "images":[
             "image1.jpg",
             "image2.jpg",
@@ -32,38 +65,35 @@
             "image7.gif"
         ],
         "video":"s-cRw_E-IuE",
-        "link":"https://tengusheath.itch.io/10001"
-    },
-    {
-        "id": 2,
-        "title": "YoyoPoyo",
-        "summary": "Summary for project 2",
-        "thumbnail": "default.jpg",
-        "fullimage": "header.jpg",
-        "url": "yoyopoyo",
-        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
-        "images":[
-            "image1.gif",
-            "image2.jpg",
-            "image3.jpg"
-        ],
-        "video":"IvLOORdOnH4",
-        "link":"https://tengusheath.itch.io/yoyopoyo"
+        "link":"https://tengusheath.itch.io/10001",
+        "tools":[
+            "C#",
+            "Unity",
+            "Photoshop",
+            "Aseprite",
+            "FL Studio"
+        ]
     },
     {
         "id": 3,
         "title": "Strange Planet",
-        "summary": "Summary for project 3",
+        "summary": "<p>Top down shooter game developed in 72 hours for the <strong><em>Ludum Dare 47</em></strong> game development event.</p>",
         "thumbnail": "default.jpg",
         "fullimage": "header.jpg",
         "url": "strange-planet",
-        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
+        "fulltext": "<p><strong>Strange Planet</strong> was my first game development submission I have ever done. It is a top down shooter game developed for the Ludum Dare 47 game development event.</p><p><a target=\"_blank\" href=\"https://ldjam.com/\">Learn more about Ludum Dare here</a></p><p>The theme for this event was <strong>\"Stuck in a Loop\"</strong>. The player controls an astronaut stranded on a planet that is infinitely looped around to the same screen, while trying to survive against an alien attack that gets more difficult with each passing day.</p><p>Each Ludum Dare has two types of submissions with different deadlines: the \"Compo\" at 48 hours and \"Jam\" at 72 hours. All code and art assets were made in 72 hours for the \"Jam\" submission.</p><p>You can <a target=\"_blank\"  href=\"https://ldjam.com/events/ludum-dare/47/strange-planet\">see how well my first game jam event game rated</a> in different categories among 3,206 other submissions.</p>",
         "images":[
             "image1.jpg",
             "image2.jpg",
             "image3.jpg"
         ],
         "video":"y2vkuY0ZDYQ",
-        "link":"https://tengusheath.itch.io/strange-planet"
+        "link":"https://tengusheath.itch.io/strange-planet",
+        "tools":[
+            "C#",
+            "Unity",
+            "Aseprite",
+            "Audacity"
+        ]
     }
 ]
