@@ -5,6 +5,9 @@
         <span>{{ project.title }}</span>
       </div>
       <div><img class="project-header-img" :src="require('@/assets/img/projects/' + project.url + '/' + project.fullimage)"/></div>
+      
+      <div class="project-link"><span>Link:</span> <a target="_blank" :href="project.link">{{ project.link }}</a></div>
+
       <div class="project-full-text" v-html="project.fulltext"></div>
       
       <h3 v-if="project.video || project.images">Media</h3>
@@ -14,19 +17,48 @@
 
       <div v-if="project.images" class="project-gallery">
         <div class="project-image" :key="image.id" v-for="image in project.images">
-            <a :href="require('@/assets/img/projects/' + image)"><img :src="require('@/assets/img/projects/thumb_' + image)"/></a>
+          <img @click="openLightbox(image)" :src="getImgUrl(image, project.url, true)"/>
         </div>
       </div>
 
+      <div @click="closeLightbox" class="lightbox-fade" id="fade" ref="fade"></div>
+      <div class="full-image" id="fullImage" ref="fullImage">
+        <img v-if="fullImage" :src="getImgUrl(fullImage, project.url, false)"/>
+      </div>
   </div>
 </template>
 
 <script>
 export default {
   name: "Project",
+  data(){
+    return{
+      fullImage: ''
+    }
+  },
   computed:{
       project(){
           return this.$store.getters.getProject(parseInt(this.$route.params.id))
+      }
+  },
+  methods:{
+      closeLightbox(){
+          this.$refs.fullImage.classList.remove("full-image_open")
+          this.$refs.fade.classList.remove("lightbox-fade_open")
+          this.$el.parentNode.classList.remove("app-overflow")
+      },
+      openLightbox(image){
+          this.fullImage = image
+
+          this.$refs.fullImage.classList.add("full-image_open")
+          this.$refs.fade.classList.add("lightbox-fade_open")
+          this.$el.parentNode.classList.add("app-overflow")
+      },
+      getImgUrl(image, project, thumb){
+        if(thumb){
+          return require('@/assets/img/projects/' + project + '/' + 'thumb_' + image)  
+        }
+        return require('@/assets/img/projects/' + project + '/' + image)
       }
   }
 }

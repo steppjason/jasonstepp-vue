@@ -6,7 +6,13 @@
         "thumbnail": "default.jpg",
         "fullimage": "header.jpg",
         "url": "cvberpunk",
-        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium."
+        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
+        "images":[
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg"
+        ],
+        "link":"https://www.cvberpunk.com"
     },
     {
         "id": 1,
@@ -19,9 +25,14 @@
         "images":[
             "image1.jpg",
             "image2.jpg",
-            "image3.jpg"
+            "image3.jpg",
+            "image4.jpg",
+            "image5.jpg",
+            "image6.gif",
+            "image7.gif"
         ],
-        "video":"s-cRw_E-IuE"
+        "video":"s-cRw_E-IuE",
+        "link":"https://tengusheath.itch.io/10001"
     },
     {
         "id": 2,
@@ -32,11 +43,12 @@
         "url": "yoyopoyo",
         "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
         "images":[
-            "image1.jpg",
+            "image1.gif",
             "image2.jpg",
             "image3.jpg"
         ],
-        "video":""
+        "video":"IvLOORdOnH4",
+        "link":"https://tengusheath.itch.io/yoyopoyo"
     },
     {
         "id": 3,
@@ -45,6 +57,13 @@
         "thumbnail": "default.jpg",
         "fullimage": "header.jpg",
         "url": "strange-planet",
-        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium."
+        "fulltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dictum felis. Quisque pharetra iaculis diam, quis egestas libero rhoncus pulvinar. Aliquam erat volutpat. Sed non tellus vitae nunc finibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu vehicula lacus, at congue dui. Donec felis orci, feugiat hendrerit lorem eget, rutrum eleifend mi. Nunc tincidunt magna sodales tortor suscipit malesuada. Mauris imperdiet tortor id ligula ultricies, et mattis massa maximus. Nulla at sollicitudin orci, sit amet fringilla risus. Aliquam eleifend lacus non consequat sollicitudin. Nullam odio dolor, commodo sit amet mi at, dapibus laoreet ante. Nullam nec ipsum non diam volutpat tempus sit amet vitae ex. Vivamus rhoncus dolor sit amet ante molestie, ac dapibus neque pretium.",
+        "images":[
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg"
+        ],
+        "video":"y2vkuY0ZDYQ",
+        "link":"https://tengusheath.itch.io/strange-planet"
     }
 ]
