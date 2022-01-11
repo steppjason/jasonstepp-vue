@@ -20,7 +20,6 @@ export default {
               this.$parent.$refs.menu.classList.remove("open")
               this.$parent.$refs.fade.classList.remove("mobile-nav-fade_open")
           }
-            
       }
   }
 }

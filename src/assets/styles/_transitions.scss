@@ -23,3 +23,15 @@
 .route-leave-active{
     transition: all 0.5s ease-in;
 }
+
+
+.image-enter-from{
+    opacity: 0;
+}
+
+.image-enter-active{
+    transition: all 0.5s ease-in;
+}
+
+.image-enter-to{
+}
