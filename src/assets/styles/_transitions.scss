@@ -1,37 +1,35 @@
-.route-enter-from{
-    opacity: 0;
-    transform: translateX(-200px);
+.route-enter-from {
+	opacity: 0;
+	transform: translateX(-200px);
 }
 
-.route-enter-to{
-
+.route-enter-to {
 }
 
-.route-enter-active{
-    animation-delay: 0s;
-    transition: all 0.5s ease-out;
+.route-enter-active {
+	animation-delay: 0s;
+	transition: all 0.5s ease-out;
 }
 
-.route-leave-from{
-    opacity:1;
-    transform: translateY(0);
+.route-leave-from {
+	opacity: 1;
+	transform: translateY(0);
 }
-.route-leave-to{
-    opacity: 0;
-    transform: translateX(200px);
+.route-leave-to {
+	opacity: 0;
+	transform: translateX(200px);
 }
-.route-leave-active{
-    transition: all 0.5s ease-in;
-}
-
-
-.image-enter-from{
-    opacity: 0;
+.route-leave-active {
+	transition: all 0.5s ease-in;
 }
 
-.image-enter-active{
-    transition: all 0.5s ease-in;
+.image-enter-from {
+	opacity: 0;
 }
 
-.image-enter-to{
+.image-enter-active {
+	transition: all 0.5s ease-in;
+}
+
+.image-enter-to {
 }

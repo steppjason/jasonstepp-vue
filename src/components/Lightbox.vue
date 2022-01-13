@@ -1,9 +1,7 @@
-<template>
-    
-</template>
+<template></template>
 
 <script>
 export default {
-  name: "Lightbox"
-}
+	name: "Lightbox",
+};
 </script>
