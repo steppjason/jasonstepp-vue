@@ -26,9 +26,7 @@ export default {
 		closeMenu() {
 			if (this.$parent.$refs.menu != null) {
 				this.$parent.$refs.menu.classList.remove("open");
-				this.$parent.$refs.fade.classList.remove(
-					"mobile-nav-fade_open"
-				);
+				this.$parent.$refs.fade.classList.remove("mobile-nav-fade_open");
 			}
 		},
 	},

@@ -2,10 +2,7 @@
 	<div class="home content">
 		<h3>Hi,</h3>
 		<p>I am a <span class="emphasize bold">developer</span></p>
-		<p>
-			I like to <span class="bold">learn</span> ,
-			<span class="bold">create</span>,
-		</p>
+		<p>I like to <span class="bold">learn</span> ,<span class="bold">create</span>,</p>
 		<p>and <span class="bold">build</span> things</p>
 		<ul>
 			<li>C#</li>
