@@ -6,4 +6,5 @@ import store from "@/store";
 
 import "@/assets/styles/style.scss";
 
+
 createApp(App).use(store).use(router).use(ref).mount("#app");

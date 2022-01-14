@@ -299,7 +299,7 @@ footer > ul > li,
 	color: var(--bg);
 	background-color: var(--tertiary-color);
 	border-radius: 12px;
-	opacity: 60%;
+	opacity: 0.4;
 }
 
 .email {
@@ -357,7 +357,7 @@ footer > ul > li,
 }
 
 .project-snippet img {
-	opacity: 25%;
+	opacity: 0.25;
 }
 
 .project-header-img {
@@ -521,7 +521,7 @@ footer > ul > li,
 	fill: none;
 }
 
-.email-icon {
+.email-icon, .resume-icon {
 	width: 24px;
 	vertical-align: middle;
 }
