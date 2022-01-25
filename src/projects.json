@@ -7,7 +7,7 @@
 		"fullimage": "header.jpg",
 		"url": "cvberpunk",
 		"fulltext": "<p>Started as an Instagram account sharing content centered around the science fiction genre: <strong><em>CYBERPUNK</em></strong>. My Instagram account quickly grew to thousands of users, and then to over 10,000 over a couple of years.</p><p>Taking my existing userbase I decided to turn the social media account I grew into an E-commerce website. I have done freelance work in the past building out WordPress / WooCommerce websites for small businesses, so it was a platform I was familiar with. But I had never built a custom theme completely from scratch.</p><p>Without time or cost restraints I wanted to build a WordPress site that was lightweight and fast. Using previous experience with Unix servers I set up a droplet on DigitalOcean and configured NGINX to serve pages as fast as possible. I built out a lightweight WordPress theme from the ground up using the least amount of plugins I could and staying away from large CSS, JavaScript, and image files as much as I could.</p><p>It was the fastest website I had ever built receiving a mobile score of 71 and desktop score of 95 from Google PageSpeed Insights.</p><p>I now maintain the site and social media account as hobbies. And use them as creative outlets to design graphic t-shirts.</p>",
-		"images": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+		"images": ["image1.jpg", "image3.jpg", "image4.jpg"],
 		"link": "https://www.cvberpunk.com",
 		"social": "https://www.instagram.com/cvberpunk",
 		"tools": [
@@ -45,12 +45,11 @@
 		"url": "10001",
 		"fulltext": "<p><strong>10,001: A space exploration game</strong>, made in Unity, is a game about the vast emptiness of space, inspired by classic science fiction. It was developed in 48 hours for the Ludum Dare 48 game development event.</p><p><a target=\"_blank\" href=\"https://ldjam.com/\">Learn more about Ludum Dare here</a></p><p>The theme for this event was <strong>\"Deeper and Deeper\"</strong>. My game focuses on exploring deep space and the isolation that comes with it. The player pilots a spacecraft that can fire a weapon to fight an invading alien species while they try to explore surrounding areas.</p><p>Each Ludum Dare has two types of submissions with different deadlines: the \"Compo\" at 48 hours and \"Jam\" at 72 hours. All code and art assets were made in 48 hours for the \"Compo\" submission.</p><p>You can <a target=\"_blank\" href=\"https://ldjam.com/events/ludum-dare/48/10001\">see how well my game was rated</a> in different categories among 3,866 submissions.</p>",
 		"images": [
-			"image1.jpg",
+			"image6.gif",
 			"image2.jpg",
 			"image3.jpg",
 			"image4.jpg",
 			"image5.jpg",
-			"image6.gif",
 			"image7.gif"
 		],
 		"video": "s-cRw_E-IuE",
