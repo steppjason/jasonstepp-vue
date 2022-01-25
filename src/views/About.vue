@@ -1,4 +1,5 @@
 <template>
+
 	<div class="content">
 		<h3>About Me</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
@@ -14,6 +15,7 @@
 		ac risus pretium accumsan sed vitae dolor. In et tortor sem. Aliquam
 		pellentesque neque sit amet orci fermentum imperdiet.</p>
 	</div>
+
 </template>
 
 <script>

@@ -15,13 +15,11 @@
 		</transition>
 
 		<div v-if="project.link" class="project-link">
-			<span>Link:</span>
-			<a target="_blank" :href="project.link">{{ project.link }}</a>
+			<span>Link: </span><a target="_blank" :href="project.link">{{ project.link }}</a>
 		</div>
 		
 		<div v-if="project.social" class="project-link">
-			<span>Instagram:</span>
-			<a target="_blank" :href="project.social">{{ project.social }}</a>
+			<span>Instagram: </span><a target="_blank" :href="project.social">{{ project.social }}</a>
 		</div>
 
 		<div class="project-full-text" v-html="project.fulltext"></div>
