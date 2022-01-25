@@ -10,8 +10,8 @@
 
         <h4>Summary</h4>
         <p>Full Stack Developer with over 8 years of experience. Proven success designing and developing online retail 
-        websites that convert customers to sales. Knowledgable in other areas of business including sales and marketing. 
-        With the ability and interest to learn new technologies and skills.
+        websites that convert customers to sales. Knowledgable in other areas of business including sales and marketing 
+        with the ability and interest to learn new technologies and skills.
         </p>
         <h4>Professional Experience</h4>
         <ul>
