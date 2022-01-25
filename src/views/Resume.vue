@@ -9,7 +9,10 @@
 		</div>
 
         <h4>Summary</h4>
-        <p>Full Stack Developer with over 8 years of experience </p>
+        <p>Full Stack Developer with over 8 years of experience. Proven success designing and developing online retail 
+        websites that convert customers to sales. Knowledgable in other areas of business including sales and marketing. 
+        With the ability and interest to learn new technologies and skills.
+        </p>
         <h4>Professional Experience</h4>
         <ul>
             <li>
@@ -91,7 +94,8 @@
             <li>
                 <div>2nd Place - Class Competition</div>
                 <div>2012</div>
-                <div>Awarded 2<sup>nd</sup> place, as a team, in a class competition among 20 student teams.</div>
+                <div>Awarded 2<sup>nd</sup> place, as a team, in a class competition among 20 student teams designing 
+                an original web app idea using Salesforce.</div>
                 <div></div>
             </li>
         </ul>
