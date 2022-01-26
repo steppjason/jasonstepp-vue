@@ -357,12 +357,12 @@ footer > ul > li,
 	font-weight: 900;
 	text-transform: uppercase;
 	order:1;
-	flex-basis: 80%;
+	flex-basis: 75%;
 }
 
 .resume ul li>div:nth-child(2){
 	order: 2;
-	flex-basis: 20%;
+	flex-basis: 25%;
 	text-align: right;
 	font-size:0.85rem;
 }
@@ -370,14 +370,14 @@ footer > ul > li,
 .resume ul li>div:nth-child(3){
 	font-style: italic;
 	order: 3;
-	flex-basis: 80%;
+	flex-basis: 75%;
 	color:var(--tertiary-color);
 	font-weight:600;
 }
 
 .resume ul li>div:nth-child(4){
 	order: 4;
-	flex-basis: 20%;
+	flex-basis: 25%;
 	text-align: right;
 	color:var(--tertiary-color);
 	font-style: italic;
