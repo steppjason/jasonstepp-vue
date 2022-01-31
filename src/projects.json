@@ -24,6 +24,17 @@
 		]
 	},
 	{
+		"id": 3,
+		"title": "Video Game Database",
+		"summary": "<p>A Vue.js + Node.js application that tracks video game collections.</p>",
+		"thumbnail": "default.jpg",
+		"fullimage": "header.jpg",
+		"url": "vgdatabase",
+		"fulltext": "<p>Built as a practice project to learn Node.js / Express.js and Vue.js. Uses a remote Postgres database on Heroku.</p> <p>Right now it is a proof of concept. It retrieves video game data from a remote database and displays it.</p><p>Future features will turn it into a fully fleshed out video game collection tracking app. With user authentication, adding games, updating games, and deleting games from youor collection.</p>",
+		"link": "https://vgd.jasonstepp.me/",
+		"tools": ["JavaScript", "Vue.js", "Node.js", "Express.js", "Postgres"]
+	},
+	{
 		"id": 2,
 		"title": "YoyoPoyo",
 		"summary": "<p>Puzzle game developed in 24 hours for the <strong><em>2021 GameMaker Game Jam</em></strong> game development event.</p>",
