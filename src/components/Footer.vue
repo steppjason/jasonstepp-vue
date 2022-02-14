@@ -1,6 +1,7 @@
 <template>
 	<footer class="site-footer">
 		<p class="made-with">Made with <span>🌵</span></p>
+		<p>Built with Vue.js</p>
 		<p>&copy; {{ copyright }}</p>
 	</footer>
 </template>

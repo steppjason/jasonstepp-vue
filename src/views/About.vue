@@ -2,7 +2,7 @@
 
 	<div class="content">
 		<h3>About Me</h3>
-		<p>My name is Jason Stepp. I am a developer that likes to learn, create, and build things.</p>
+		<p>My name is Jason. I am a developer that likes to learn, create, and build things.</p>
 		<p>My interest in computers started as young as I can remember. Mostly fueled by my interest 
 		in video games. Which lead me into the world of programming. Something which I pursue both 
 		professionally as well as personally.</p>
