@@ -26,7 +26,7 @@
 	{
 		"id": 6,
 		"title": "GameStash",
-		"summary": "<p></p>",
+		"summary": "<p>Video game collection tracking web app</p>",
 		"thumbnail": "default.jpg",
 		"fullimage": "header.jpg",
 		"url": "gamestash",
