@@ -31,7 +31,7 @@
 		"fullimage": "header.jpg",
 		"url": "gamestash",
 		"fulltext": "<p></p>",
-		"images": ["screenshot_1.jpg", "screenshot_2.jpg", "screenshot_2.jpg"],
+		"images": ["screenshot_1.jpg", "screenshot_2.jpg", "screenshot_3.jpg"],
 		"link": "https://beta.gamestash.app/",
 		"tools": [
 			"Vue.js",
