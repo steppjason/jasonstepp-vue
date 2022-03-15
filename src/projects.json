@@ -24,7 +24,25 @@
 		]
 	},
 	{
-		"id": 3,
+		"id": 6,
+		"title": "GameStash",
+		"summary": "<p></p>",
+		"thumbnail": "default.jpg",
+		"fullimage": "header.jpg",
+		"url": "gamestash",
+		"fulltext": "<p></p>",
+		"images": ["screenshot_1.jpg", "screenshot_2.jpg", "screenshot_2.jpg"],
+		"link": "https://beta.gamestash.app/",
+		"tools": [
+			"Vue.js",
+			"Node.js",
+			"HTML5",
+			"SASS",
+			"JavaScript"
+		]
+	},
+	{
+		"id": 5,
 		"title": "Video Game Database",
 		"summary": "<p>A Vue.js + Node.js application that tracks video game collections.</p>",
 		"thumbnail": "default.jpg",
