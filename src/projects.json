@@ -54,7 +54,7 @@
 		"fulltext": "<p>YoyoPoyo is a puzzle game made in Unity for the 2021 GameMaker Game Jam development event. This particular game jam lasted 48 hours, however I joined late and only had about 24 hours to develop this game.</p><p><a target=\"_blank\" href=\"https://itch.io/jam/gmtk-2021\">Learn more about the event here</a></p><p>The theme for the event was <strong>\"Joined Together\"</strong>. My game centers around two characters that are both controlled by the same input so that they mimic each other. Using the environment the player can re-position the characters relative to each other to solve puzzles.</p><p>All code and art assets were created within the 24 hours that I worked on the project.</p><p>You can see <a target=\"_blank\" href=\"https://itch.io/jam/gmtk-2021/rate/1080261\">how well my game was rated</a> in different categories among 5,742 other entries.</p>",
 		"images": ["image1.gif", "image2.jpg", "image3.jpg"],
 		"video": "IvLOORdOnH4",
-		"link": "https://tengusheath.itch.io/yoyopoyo",
+		"link": "https://jasonstepp.itch.io/yoyopoyo",
 		"tools": ["C#", "Unity", "Aseprite"]
 	},
 	{
@@ -74,7 +74,7 @@
 			"image7.gif"
 		],
 		"video": "s-cRw_E-IuE",
-		"link": "https://tengusheath.itch.io/10001",
+		"link": "https://jasonstepp.itch.io/10001",
 		"tools": ["C#", "Unity", "Photoshop", "Aseprite", "FL Studio"]
 	},
 	{
@@ -87,7 +87,7 @@
 		"fulltext": "<p><strong>Strange Planet</strong> was my first game jam development event submission I have ever done. It is a top down shooter made in 72 hours with Unity for the Ludum Dare 47 game development event.</p><p><a target=\"_blank\" href=\"https://ldjam.com/\">Learn more about Ludum Dare here</a></p><p>The theme for this event was <strong>\"Stuck in a Loop\"</strong>. The player controls an astronaut stranded on a planet that is infinitely looped around to the same screen, while trying to survive against an alien attack that gets more difficult with each passing day.</p><p>Each Ludum Dare has two types of submissions with different deadlines: the \"Compo\" at 48 hours and \"Jam\" at 72 hours. All code and art assets were made in 72 hours for the \"Jam\" submission.</p><p>You can <a target=\"_blank\"  href=\"https://ldjam.com/events/ludum-dare/47/strange-planet\">see how well my first game jam event game rated</a> in different categories among 3,206 other submissions.</p>",
 		"images": ["image1.jpg", "image2.jpg", "image3.jpg"],
 		"video": "y2vkuY0ZDYQ",
-		"link": "https://tengusheath.itch.io/strange-planet",
+		"link": "https://jasonstepp.itch.io/strange-planet",
 		"tools": ["C#", "Unity", "Aseprite", "Audacity"]
 	}
 ]
