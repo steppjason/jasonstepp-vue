@@ -5,14 +5,15 @@
 		<p>I like to <span class="bold">learn</span>, <span class="bold">create</span>,</p>
 		<p>and <span class="bold">build</span> things</p>
 		<ul>
-			<li>C#</li>
-			<li>PHP</li>
+			<li>Vue.js</li>
+			<li>JavaScript</li>
 			<li>HTML5</li>
 			<li>CSS3</li>
-			<li>JavaScript</li>
-			<li>MySQL</li>
 			<li>Git/GitHub</li>
 			<li>SASS</li>
+			<li>PHP</li>
+			<li>MySQL</li>
+			<li>C#</li>
 			<li>jQuery</li>
 			<li>REST</li>
 			<li>Unix</li>

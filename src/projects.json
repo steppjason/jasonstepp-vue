@@ -1,5 +1,25 @@
 [
 	{
+		"id": 6,
+		"title": "GameStash",
+		"summary": "<p>Free video game cataloging service using a PEVN stack.</p>",
+		"thumbnail": "default.jpg",
+		"fullimage": "header.jpg",
+		"url": "gamestash",
+		"fulltext": "<p>Built a free to use video game cataloging service using a PEVN (Postgres, Express, Vue.js, Node.js) stack. Utilizes Twitch.tv’s IGDB (Internet Games Database) API to pull video game meta data for cataloging. Users can create accounts to keep track of their personal video game collection.</p>",
+		"images": ["screenshot_1.jpg", "screenshot_2.jpg", "screenshot_3.jpg"],
+		"link": "https://gamestash.app/",
+		"tools": [
+			"Vue.js",
+			"Node.js",
+			"Express",
+			"Postgres",
+			"HTML5",
+			"SASS",
+			"JavaScript"
+		]
+	},
+	{
 		"id": 4,
 		"title": "CVBERPUNK",
 		"summary": "<p>Niche website / social media centered around the science fiction genre <strong><em>CYBERPUNK</em></strong>.</p>",
@@ -23,35 +43,7 @@
             "Photoshop"
 		]
 	},
-	{
-		"id": 6,
-		"title": "GameStash",
-		"summary": "<p>Video game collection tracking web app</p>",
-		"thumbnail": "default.jpg",
-		"fullimage": "header.jpg",
-		"url": "gamestash",
-		"fulltext": "<p></p>",
-		"images": ["screenshot_1.jpg", "screenshot_2.jpg", "screenshot_3.jpg"],
-		"link": "https://beta.gamestash.app/",
-		"tools": [
-			"Vue.js",
-			"Node.js",
-			"HTML5",
-			"SASS",
-			"JavaScript"
-		]
-	},
-	{
-		"id": 5,
-		"title": "Video Game Database",
-		"summary": "<p>A Vue.js + Node.js application that tracks video game collections.</p>",
-		"thumbnail": "default.jpg",
-		"fullimage": "header.jpg",
-		"url": "vgdatabase",
-		"fulltext": "<p>Built as a practice project to learn Node.js / Express.js and Vue.js. Uses a remote Postgres database on Heroku.</p> <p>Right now it is a proof of concept. It retrieves video game data from a remote database and displays it.</p><p>Future features will turn it into a fully fleshed out video game collection tracking app. With user authentication, adding games, updating games, and deleting games from youor collection.</p>",
-		"link": "https://vgd.jasonstepp.me/",
-		"tools": ["JavaScript", "Vue.js", "Node.js", "Express.js", "Postgres"]
-	},
+	
 	{
 		"id": 2,
 		"title": "YoyoPoyo",
