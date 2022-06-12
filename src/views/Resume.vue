@@ -44,12 +44,12 @@
             <li>
                 <div>GameStash</div>
                 <div>2022</div>
-                <div></div>
+                <div><a target="_blank" href="https://gamestash.app">gamestash.app</a></div>
             </li>
             <li>
                 <div>CVBERPUNK</div>
                 <div>2017 - 2022</div>
-                <div></div>
+                <div><a target="_blank" href="https://cvberpunk.com">cvberpunk.com</a></div>
             </li>
         </ul>
         <h4>Education</h4>
