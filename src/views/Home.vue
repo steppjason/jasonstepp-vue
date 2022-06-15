@@ -5,6 +5,7 @@
 		<p>I like to <span class="bold">learn</span>, <span class="bold">create</span>,</p>
 		<p>and <span class="bold">build</span> things</p>
 		<ul>
+			<li>React.js</li>
 			<li>Vue.js</li>
 			<li>JavaScript</li>
 			<li>HTML5</li>
@@ -19,10 +20,7 @@
 			<li>Unix</li>
 			<li>Apache</li>
 			<li>NGINX</li>
-			<li>WordPress</li>
 			<li>Unity</li>
-			<li>Photoshop</li>
-			<li>Illustrator</li>
 		</ul>
 	</div>
 </template>
