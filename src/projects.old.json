@@ -76,5 +76,18 @@
 		"video": "s-cRw_E-IuE",
 		"link": "https://jasonstepp.itch.io/10001",
 		"tools": ["C#", "Unity", "Photoshop", "Aseprite", "FL Studio"]
+	},
+	{
+		"id": 3,
+		"title": "Strange Planet",
+		"summary": "<p>Top down shooter game developed in 72 hours for the <strong><em>Ludum Dare 47</em></strong> game development event.</p>",
+		"thumbnail": "default.jpg",
+		"fullimage": "header.jpg",
+		"url": "strange-planet",
+		"fulltext": "<p><strong>Strange Planet</strong> was my first game jam development event submission I have ever done. It is a top down shooter made in 72 hours with Unity for the Ludum Dare 47 game development event.</p><p><a target=\"_blank\" href=\"https://ldjam.com/\">Learn more about Ludum Dare here</a></p><p>The theme for this event was <strong>\"Stuck in a Loop\"</strong>. The player controls an astronaut stranded on a planet that is infinitely looped around to the same screen, while trying to survive against an alien attack that gets more difficult with each passing day.</p><p>Each Ludum Dare has two types of submissions with different deadlines: the \"Compo\" at 48 hours and \"Jam\" at 72 hours. All code and art assets were made in 72 hours for the \"Jam\" submission.</p><p>You can <a target=\"_blank\"  href=\"https://ldjam.com/events/ludum-dare/47/strange-planet\">see how well my first game jam event game rated</a> in different categories among 3,206 other submissions.</p>",
+		"images": ["image1.jpg", "image2.jpg", "image3.jpg"],
+		"video": "y2vkuY0ZDYQ",
+		"link": "https://jasonstepp.itch.io/strange-planet",
+		"tools": ["C#", "Unity", "Aseprite", "Audacity"]
 	}
 ]
